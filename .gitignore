@@ -1,12 +1,25 @@
+# ------[Visual Studio]------ #
+*.suo
+*.user
+*.ncb
+*.plg
+*.opt
+*.aps
+*.sdf
+*.opensdf
+*.exp
+*.idb
+*.ilk
+*.exe
+*.pdb
+*.chw
+
 ## Compiled source #
 *.com
 *.class
 *.exe
-*.ilk
 *.o
-*.pdb
 *.so
-*.idb
 
 ## Linux exes have no extension
 RecastDemo/Bin/RecastDemo
