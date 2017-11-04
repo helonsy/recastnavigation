@@ -21,6 +21,8 @@
 *.o
 *.so
 
+/RecastDemo/Bin\RecastDemo.exp
+
 ## Linux exes have no extension
 RecastDemo/Bin/RecastDemo
 RecastDemo/Bin/Tests
