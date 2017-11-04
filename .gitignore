@@ -38,8 +38,5 @@ Thumbs.db
 ## xcode specific
 *xcuserdata*
 
-## SDL contrib
-RecastDemo/Contrib/SDL/*
-
 ## Generated doc files
 Docs/html
