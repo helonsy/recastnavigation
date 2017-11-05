@@ -223,6 +223,7 @@ void Sample_SoloMesh::handleRender()
 	if (m_drawMode != DRAWMODE_NAVMESH_TRANS)
 	{
 		// Draw mesh
+		// äÖÈ¾µØÍ¼
 		duDebugDrawTriMeshSlope(&m_dd, m_geom->getMesh()->getVerts(), m_geom->getMesh()->getVertCount(),
 								m_geom->getMesh()->getTris(), m_geom->getMesh()->getNormals(), m_geom->getMesh()->getTriCount(),
 								m_agentMaxSlope, texScale);
@@ -248,6 +249,7 @@ void Sample_SoloMesh::handleRender()
 		m_drawMode == DRAWMODE_NAVMESH_INVIS))
 	{
 		if (m_drawMode != DRAWMODE_NAVMESH_INVIS)
+			// äÖÈ¾µ¼º½Íø¸ñ
 			duDebugDrawNavMeshWithClosedList(&m_dd, *m_navMesh, *m_navQuery, m_navMeshDrawFlags);
 		if (m_drawMode == DRAWMODE_NAVMESH_BVTREE)
 			duDebugDrawNavMeshBVTree(&m_dd, *m_navMesh);
@@ -694,7 +696,6 @@ bool Sample_SoloMesh::handleBuild()
 			m_ctx->log(RC_LOG_ERROR, "Could not build Detour navmesh.");
 			return false;
 		}
-		
 		m_navMesh = dtAllocNavMesh();
 		if (!m_navMesh)
 		{
@@ -712,7 +713,6 @@ bool Sample_SoloMesh::handleBuild()
 			m_ctx->log(RC_LOG_ERROR, "Could not init Detour navmesh");
 			return false;
 		}
-		
 		status = m_navQuery->init(m_navMesh, 2048);
 		if (dtStatusFailed(status))
 		{
