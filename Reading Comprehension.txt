@@ -1,3 +1,8 @@
 ﻿// 手机对应   拥塞控制 全局性的过程  --涉及所有的主机，所有的路由器
 
-// 看看中文乱码
+// TomRen++博客园
+http://www.cnblogs.com/tomren/category/961723.html
+
+// you_lan_hai CSDN
+http://blog.csdn.net/you_lan_hai/article/deta\
+  ls/77428858
